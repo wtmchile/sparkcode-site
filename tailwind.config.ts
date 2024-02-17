@@ -9,9 +9,25 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "star-pattern": "url('/images/estrellas-fondo.svg')",
+      },
+      colors: {
+        "dark-purple": "#272039",
+        "light-purple": "#a586fc",
+        primary: "#6e0584",
+        secondary: "#35103c",
+      },
+      fontSize: {
+        "clamp-xl": "clamp(2.25rem, 8vw, 3.75rem)",
+      },
+      animation: {
+        flip: "flip 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+      },
+      keyframes: {
+        flip: {
+          from: { transform: "rotateX(0deg)", transformOrigin: "50% bottom " },
+          to: { transform: "rotateX(180deg)", transformOrigin: "50% bottom " },
+        },
       },
     },
   },

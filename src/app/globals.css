@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.font-kufam {
+  font-family: var(--font-kufam);
+}
