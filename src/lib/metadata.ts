@@ -1,7 +1,7 @@
 export const getMetaData = ({
   title: _title = "",
   description = "Buscamos encender una chispa de cambio y crecimiento en las mujeres por la tecnologia, específicamente en videojuegos.",
-  url = "/",
+  url = "https://sparkcode-site.vercel.app/",
   overwriteTitle = false,
 }) => {
   const title = overwriteTitle
