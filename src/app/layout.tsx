@@ -13,7 +13,7 @@ const kufam = Kufam({
 export const metadata: Metadata = {
   title: "Spark Code: Dream Big, Start Small",
   description:
-    "buscamos encender una chispa de cambio y crecimiento en las mujeres por la tecnologia, específicamente en videojuegos.",
+    "Buscamos encender una chispa de cambio y crecimiento en las mujeres por la tecnologia, específicamente en videojuegos.",
 };
 
 export default function RootLayout({
