@@ -9,7 +9,7 @@ export const getMetaData = ({
     : _title
     ? `${_title} | Spark Code - WTM Chile`
     : "Spark Code - WTM Chile";
-  const images = ["/images/og-image.jpg"];
+  const images = ["/images/og-image.png"];
 
   return {
     metadataBase: new URL(url),
