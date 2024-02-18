@@ -1,5 +1,10 @@
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { getMetaData, getViewports } from "@/lib/metadata";
 import Image from "next/image";
+
+export const generateMetadata = () => getMetaData({});
+
+export const generateViewport = () => getViewports();
 
 export default function Home() {
   return (
