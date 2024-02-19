@@ -38,7 +38,7 @@ export default function RootLayout({
             <Image
               src={"/images/wtm-logo.png"}
               width={300}
-              height={280}
+              height={64}
               alt="WTM logo"
               className="self-end z-10"
             />
