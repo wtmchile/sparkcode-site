@@ -8,7 +8,7 @@ export const Button = () => {
                 </button>
                 </a>
                 <a href="https://lu.ma/sparkcode" target="_blank">
-                    <button type="button" title="Registrarse para Presencial"  className="bg-[#e199f5] hover:bg-[#6e0584] text-[#35103c] font-bold  py-2 px-8  font-kufam rounded shadow-lg shadow-gray-500/50  text-white rounded-lg">
+                    <button type="button" title="Registrarse para Presencial"  className="bg-[#e199f5] hover:bg-[#6e0584] text-violet-950 font-bold  py-2 px-8  font-kufam rounded shadow-lg shadow-gray-500/50  text-white rounded-lg">
                     Presencial
                 </button>
                 </a>
