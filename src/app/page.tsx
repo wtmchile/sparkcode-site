@@ -12,7 +12,7 @@ export default function Home() {
       <div className="pt-14 flex flex-col items-center">
         <h1 className="hidden">Spark Code</h1>
         <h2 className="text-clamp-xl font-kufam font-bold mb-12 text-white">
-          Proximamente
+          Próximamente
         </h2>
         <div className="max-w-[200px] sm:max-w-full">
           <Image
