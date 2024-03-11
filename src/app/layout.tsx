@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Kufam } from "next/font/google";
+import Link from 'next/link'
 import "./globals.css";
 import Image from "next/image";
 
@@ -27,8 +28,8 @@ export default function RootLayout({
         className={`${inter.className} bg-dark-purple bg-star-pattern min-h-screen flex flex-col`}
       >
         {children}
-        <footer>
-          <div className="w-full relative h-[200px] flex justify-center">
+        <footer>   
+          <Link title="Conócenos" href="https://linktr.ee/wtmchile"><div className="w-full relative h-[200px] flex justify-center">
             <Image
               src={"/images/wave-soft.svg"}
               alt="Wave image"
@@ -42,7 +43,8 @@ export default function RootLayout({
               alt="WTM logo"
               className="self-end z-10"
             />
-          </div>
+           
+          </div></Link>
         </footer>
       </body>
     </html>
