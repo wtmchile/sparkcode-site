@@ -1,8 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<img src="/public/images/spark-only.png">
 
-First, run the development server:
+
+## <span style="color:#BF54DE">Spark Code</span>
+Spark Code es un evento impulsado por WTM Chile, dedicado a los entusiastas de los videojuegos que ofrece una plataforma para compartir conocimientos, experiencias y pasión por la industria. El evento se centra en aspectos técnicos, creativos y empresariales del desarrollo de videojuegos, y se llevará a cabo en el Movistar Game Club ubicado en el Mall Plaza Vespucio, el día 27 de Abril del 2024. 
+
+## <span style="color:#BF54DE">Tecnologías</span>
+El proyecto utiliza las siguientes tecnologías:
+
+- TypeScript
+- Next.js
+- Tailwind CSS
+
+## <span style="color:#BF54DE">¿Cómo instalar y correr el proyecto?</span>
+- Clona el repositorio desde GitHub: git clone https://github.com/tu_usuario/sparkcode-site.git
+- Navega al directorio del proyecto: cd sparkcode-site
+- Instala las dependencias del proyecto: npm install o npm i
+- Inicia el servidor de desarrollo: 
 
 ```bash
 npm run dev
@@ -14,23 +29,13 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Accede al proyecto en tu navegador: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## <span style="color:#BF54DE">¿Cómo contribuir al proyecto?</span>
+¡Agradecemos tu interés en contribuir al proyecto! Puedes contribuir de las siguientes formas:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Realizando sugerencias o reportando problemas a través de issues en GitHub.
+- Contribuyendo con código mediante pull requests.
+- Ayudando a mejorar la documentación.
+- Compartiendo el proyecto y participando en discusiones sobre su desarrollo.
+- ¡Tus contribuciones son valiosas para hacer crecer y mejorar Spark Code!
