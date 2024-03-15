@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Countdown from "react-countdown";
-import { NumberBox } from "./NumberBox";
+import { NumberBox } from "../NumberBox/NumberBox";
 import { AnimatePresence, motion } from "framer-motion";
 
 export const CountdownTimer = () => {
