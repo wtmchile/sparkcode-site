@@ -1,51 +1,37 @@
-import type { Metadata } from "next";
-import { Inter, Kufam } from "next/font/google";
-import Link from 'next/link'
-import "./globals.css";
-import Image from "next/image";
+import type { Metadata } from 'next';
+import { Inter, Kufam } from 'next/font/google';
+import { Footer } from '@/components';
 
-const inter = Inter({ subsets: ["latin"] });
+import '@/styles/globals.css';
+
+import { ReactNode } from 'react';
+
+const inter = Inter({ subsets: ['latin'] });
 
 const kufam = Kufam({
-  subsets: ["latin"],
-  variable: "--font-kufam",
+  subsets: ['latin'],
+  variable: '--font-kufam',
 });
 
 export const metadata: Metadata = {
-  title: "Spark Code: Dream Big, Start Small",
+  title: 'Spark Code: Dream Big, Start Small',
   description:
-    "Buscamos encender una chispa de cambio y crecimiento en las mujeres por la tecnologia, específicamente en videojuegos.",
+    'Buscamos encender una chispa de cambio y crecimiento en las mujeres por la tecnologia, específicamente en videojuegos.',
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
-    <html lang="en" className={kufam.variable}>
+    <html lang="es" className={kufam.variable}>
       <body
-        className={`${inter.className} bg-dark-purple bg-star-pattern min-h-screen flex flex-col`}
+        className={`${inter.className} flex min-h-screen flex-col bg-dark-purple bg-star-pattern`}
       >
         {children}
-        <footer>   
-          <Link title="Conócenos" href="https://linktr.ee/wtmchile"><div className="w-full relative h-[200px] flex justify-center">
-            <Image
-              src={"/images/wave-soft.svg"}
-              alt="Wave image"
-              className="object-cover"
-              fill
-            />
-            <Image
-              src={"/images/wtm-logo.png"}
-              width={300}
-              height={64}
-              alt="WTM logo"
-              className="self-end z-10"
-            />
-           
-          </div></Link>
-        </footer>
+
+        <Footer />
       </body>
     </html>
   );
