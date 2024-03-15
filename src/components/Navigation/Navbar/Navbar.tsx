@@ -30,8 +30,8 @@ export const Navbar = ({ className }: NavbarProps) => {
       'absolute top-16 bottom-0 inset-x-0',
       'md:static',
       'w-full h-svh md:h-auto',
-      'bg-dark-purple/70 md:bg-transparent',
-      'backdrop-blur-md md:backdrop-blur-0',
+      'bg-dark-purple/70 md:bg-dark-purple/0',
+      'max-md:backdrop-blur-md',
       'transition-all',
 
       // RESET CLASS
