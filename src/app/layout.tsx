@@ -1,17 +1,8 @@
+import { ReactNode } from 'react';
 import type { Metadata } from 'next';
-import { Inter, Kufam } from 'next/font/google';
 import { Footer, Navbar } from '@/components';
 
-import '@/styles/globals.css';
-
-import { ReactNode } from 'react';
-
-const inter = Inter({ subsets: ['latin'] });
-
-const kufam = Kufam({
-  subsets: ['latin'],
-  variable: '--font-kufam',
-});
+import '@/styles/main.scss';
 
 export const metadata: Metadata = {
   title: 'Spark Code: Dream Big, Start Small',
@@ -27,9 +18,8 @@ export default function RootLayout({
   return (
     <html lang="es" className={kufam.variable}>
       <body
-        className={`${inter.className} flex min-h-screen flex-col bg-dark-purple bg-star-pattern`}
+        className={`${inter.className} bg-dark-purple flex min-h-screen flex-col bg-star-pattern`}
       >
-        <Navbar />
         {children}
         <Footer />
       </body>
