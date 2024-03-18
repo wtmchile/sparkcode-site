@@ -16,10 +16,9 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="es" className={kufam.variable}>
-      <body
-        className={`${inter.className} bg-dark-purple flex min-h-screen flex-col bg-star-pattern`}
-      >
+    <html lang="es">
+      <body className={`flex min-h-screen flex-col bg-secondary-950 bg-star-pattern text-white`}>
+        <Navbar />
         {children}
         <Footer />
       </body>
