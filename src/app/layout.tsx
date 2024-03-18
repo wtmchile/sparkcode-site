@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Kufam } from 'next/font/google';
-import { Footer } from '@/components';
+import { Footer, Navbar } from '@/components';
 
 import '@/styles/globals.css';
 
@@ -29,8 +29,8 @@ export default function RootLayout({
       <body
         className={`${inter.className} flex min-h-screen flex-col bg-dark-purple bg-star-pattern`}
       >
+        <Navbar />
         {children}
-
         <Footer />
       </body>
     </html>
