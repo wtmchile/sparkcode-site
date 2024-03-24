@@ -20,7 +20,7 @@ export const Navbar = ({ className }: NavbarProps) => {
     innerContainer: cn(
       'h-16 px-6 py-3',
       'container max-w-5xl mx-auto',
-      'border-b md:border border-[#43356B] bg-dark-purple/60',
+      'border-b md:border border-secondary-900 bg-secondary-950/60',
       'md:rounded-full',
       'flex items-center justify-between gap-4',
       'md:justify-evenly',
@@ -30,7 +30,7 @@ export const Navbar = ({ className }: NavbarProps) => {
       'absolute top-16 bottom-0 inset-x-0',
       'md:static',
       'w-full h-svh md:h-auto',
-      'bg-dark-purple/70 md:bg-dark-purple/0',
+      'bg-secondary-950/80 md:bg-dark-purple/0',
       'max-md:backdrop-blur-md',
       'transition-all',
 
@@ -52,13 +52,13 @@ export const Navbar = ({ className }: NavbarProps) => {
       'relative',
       'text-3xl font-bold text-right',
       'md:text-base md:font-normal md:text-center',
-      'hover:text-light-purple',
+      'hover:text-primary-400',
       'transition-colors whitespace-nowrap',
 
       // Underline on hover
       'before:content-[""] before:inset-x-0 before:-bottom-1',
       'before:h-px before:w-0 before:hover:w-full',
-      'before:absolute before:bg-light-purple ',
+      'before:absolute before:bg-primary-400',
       'before:transition-all',
     ),
   };
@@ -126,7 +126,7 @@ export const Navbar = ({ className }: NavbarProps) => {
                 href="/"
                 role="button"
                 // TODO: add colors to tailwind
-                className="flex items-center gap-4 rounded-full border border-transparent bg-[#0E091C] px-4 py-2 transition-colors hover:border-[#43356B] hover:bg-dark-purple md:gap-2"
+                className="flex items-center gap-4 rounded-full border border-transparent bg-[#0E091C] px-4 py-2 transition-colors hover:border-primary-500 hover:bg-secondary-900 md:gap-2"
               >
                 <span className="mb-1 text-3xl md:mb-0 md:hidden md:text-base lg:block">
                   Ingresar
