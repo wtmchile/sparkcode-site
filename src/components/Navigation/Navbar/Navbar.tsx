@@ -30,7 +30,7 @@ export const Navbar = ({ className }: NavbarProps) => {
       'absolute top-16 bottom-0 inset-x-0',
       'md:static',
       'w-full h-svh md:h-auto',
-      'bg-secondary-950/80 md:bg-dark-purple/0',
+      'bg-secondary-950/80 md:bg-primary-50/0',
       'max-md:backdrop-blur-md',
       'transition-all',
 
