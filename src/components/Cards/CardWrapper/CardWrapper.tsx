@@ -32,6 +32,7 @@ const Gradients: Record<GradientDirection, string> = {
   [GradientDirection.BottomLeftToTop]: 'bg-gradient-to-br',
   [GradientDirection.BottomRightToTop]: 'bg-gradient-to-bl',
 };
+
 interface CardWrapperProps {
   /**
    * Optional class name to add to the component.
