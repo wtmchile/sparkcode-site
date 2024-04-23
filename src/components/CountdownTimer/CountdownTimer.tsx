@@ -11,7 +11,7 @@ export const CountdownTimer = () => {
     setIsClient(true);
   }, []);
 
-  const fechaString = "2024-05-04T10:30:00-03:00";
+  const fechaString = "2024-05-05T10:30:00-03:00";
   const fecha = new Date(fechaString);
 
   const renderer = ({
