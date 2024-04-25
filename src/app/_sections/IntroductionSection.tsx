@@ -16,13 +16,13 @@ export const IntroductionSection = ({ className }: IntroductionSectionProps) => 
     <section>
       <div className={classes.container}>
         <HorizontalCard
-          className="mx-auto mt-20 max-lg:max-w-lg"
+          className="mx-auto mt-20 max-lg:max-w-lg px-4"
           imgSrc="/images/horizontal-card-example.png"
           imgAlt="Example simple card"
-          title="¿Qué es la sparkcode?"
-          description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat, quod
-          nostrum ea pariatur autem consequuntur dolores sequi distinctio voluptas reiciendis,
-          adipisci consequatur facere iste dolorem nihil ut, ex porro?"
+          title="¿Qué es la Spark Code?"
+          description="Spark Code es una experiencia pensada especialmente para los amantes del mundo de los videojuegos y su desarrollo. 
+          ¿Te apasiona el proceso de creación de videojuegos? ¿O quizás estás buscando oportunidades para expandir tu red de contactos en la industria? 
+          No importa cuál sea tu objetivo, Spark Code te ofrece un espacio perfecto para conectar con otras personas entusiastas, expertas y profesionales del área."
         />
       </div>
     </section>

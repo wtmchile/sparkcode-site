@@ -20,7 +20,7 @@ export const EligibilitySection = ({ className }: EligibilitySectionProps = {}) 
     eligibilitySectionData.cards.map((card) => (
       <SimpleCard
         key={card.title}
-        className="max-w-[402px]"
+        className="max-w-[650px]"
         titleClassName="my-6"
         imgSrc={card.imageSrc}
         imgAlt={card.imgAlt}
