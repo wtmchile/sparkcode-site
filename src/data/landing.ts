@@ -21,23 +21,9 @@ export const eligibilitySectionData: EligibilitySectionData = {
   title: '¿Quién puede asistir?',
   cards: [
     {
-      title: 'Lorem Ipsum',
+      title: '¡Interesados en el mundo de los videojuegos!',
       description:
-        'Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. ',
-      imageSrc: '/images/example_simple-card.png',
-      imgAlt: 'Example simple card',
-    },
-    {
-      title: 'Lorem Ipsum',
-      description:
-        'Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. ',
-      imageSrc: '/images/example_simple-card.png',
-      imgAlt: 'Example simple card',
-    },
-    {
-      title: 'Lorem Ipsum',
-      description:
-        'Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. ',
+      'Este evento esta dirigido a mujeres, ¡pero cualquier persona interesada en el mundo de los videojuegos es bienvenida! Si eres un jugador experimentado, un postulante a desarrollador o simplemente buscas explorar la industria de los videojuego, te damos la bienvenida.',
       imageSrc: '/images/example_simple-card.png',
       imgAlt: 'Example simple card',
     },
