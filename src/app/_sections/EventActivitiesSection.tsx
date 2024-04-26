@@ -25,8 +25,8 @@ export const EventActivitiesSection = ({ className }: EventActivitiesSectionProp
             titleClassName="mt-4 mb-2"
             imgSrc="/images/gamejam.png"
             imgAlt="Example simple card"
-            title="GameJam"
-            description="Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. "
+            title="Panel"
+            // description="Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. "
           />
 
           <SimpleCard
@@ -35,17 +35,17 @@ export const EventActivitiesSection = ({ className }: EventActivitiesSectionProp
             imgSrc="/images/charlas.png"
             imgAlt="Example simple card"
             title="Charlas"
-            description="Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. "
+            // description="Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. "
           />
 
           <SimpleCard
             className="row-span-2 max-lg:max-w-lg"
             titleClassName="mt-4 mb-2"
-            imageClassName="max-w-[300px] mx-auto py-10"
-            imgSrc="/images/torneos.png"
+            imageClassName="rounded-xl"
+            imgSrc="/images/networking.jpg"
             imgAlt="Example simple card"
-            title="Lorem Ipsum"
-            description="Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. Porttitor sit fringilla aliquet pulvinar enim condimentum facilisi quis sit. "
+            title="Networking"
+            // description="Lorem ipsum dolor sit amet consectetur. Ipsum penatibus amet eu turpis lacus sem ac odio. Dignissim odio sit sit felis. Porttitor sit fringilla aliquet pulvinar enim condimentum facilisi quis sit. "
           />
         </div>
       </div>
