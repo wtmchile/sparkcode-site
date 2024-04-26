@@ -120,9 +120,9 @@ export const Navbar = ({ className }: NavbarProps) => {
                 Código de conducta
               </Link>
             </li>
-            <li>
-              {/* TODO: Create a Button */}
-              <Link
+            {/* <li> */}
+            {/* TODO: Create a Button */}
+            {/* <Link
                 href="/"
                 role="button"
                 // TODO: add colors to tailwind
@@ -137,8 +137,8 @@ export const Navbar = ({ className }: NavbarProps) => {
                   className="h-6 w-6 rotate-180 text-white"
                   iconStyle={IconStyle.bold}
                 />
-              </Link>
-            </li>
+              </Link> */}
+            {/* </li> */}
           </ul>
         </nav>
 

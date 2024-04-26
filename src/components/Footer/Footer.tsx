@@ -13,7 +13,7 @@ interface FooterProps {
 export const Footer = ({ className }: FooterProps) => {
   const classes = {
     container: cn(
-      'mt-10 border-t-2',
+      'mt-auto border-t-2',
       // TODO: Update colors
       'border-[#423767]',
       'bg-gradient-to-br from-[#362B59] to-[#1F1A2E]',
