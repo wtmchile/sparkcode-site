@@ -1,8 +1,10 @@
-"use client";
-import { useEffect, useState } from "react";
-import Countdown from "react-countdown";
-import { NumberBox } from "../NumberBox/NumberBox";
-import { AnimatePresence, motion } from "framer-motion";
+'use client';
+
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
+import { AnimatePresence, motion } from 'framer-motion';
+import Countdown from 'react-countdown';
+import { NumberBox } from '../NumberBox/NumberBox';
 
 export const CountdownTimer = () => {
   // To fix error: Text content does not match server-rendered HTML
@@ -11,7 +13,7 @@ export const CountdownTimer = () => {
     setIsClient(true);
   }, []);
 
-  const fechaString = "2024-05-05T10:30:00-03:00";
+  const fechaString = '2024-05-05T10:30:00-03:00';
   const fecha = new Date(fechaString);
 
   const renderer = ({
@@ -67,30 +69,24 @@ export const CountdownTimer = () => {
 
     if (completed) {
       return (
-        // TODO: Replace for proper content
-        "Countdown done"
+        <div>
+          <h2 className="mb-5 text-center text-fluid-6xl font-semibold">Nos vemos en:</h2>
+          <Image src="/images/mgc.png" alt="" width={700} height={193} />
+        </div>
       );
     } else {
       return (
         <div className="flex gap-6">
-          <NumberBox number={formatted.days} text={"días"} flip={daysFlip} />
-          <NumberBox number={formatted.hours} text={"horas"} flip={hoursFlip} />
-          <NumberBox
-            number={formatted.minutes}
-            text={"minutos"}
-            flip={minutesFlip}
-          />
-          <NumberBox
-            number={formatted.seconds}
-            text={"segundos"}
-            flip={secondsFlip}
-          />
+          <NumberBox number={formatted.days} text={'días'} flip={daysFlip} />
+          <NumberBox number={formatted.hours} text={'horas'} flip={hoursFlip} />
+          <NumberBox number={formatted.minutes} text={'minutos'} flip={minutesFlip} />
+          <NumberBox number={formatted.seconds} text={'segundos'} flip={secondsFlip} />
         </div>
       );
     }
   };
   return (
-    <div className="h-[148px] sm:h-[180px] md:h-[224px] flex justify-center items-center">
+    <div className="flex h-[148px] items-center justify-center sm:h-[180px] md:h-[224px]">
       <AnimatePresence mode="popLayout">
         {isClient && (
           <motion.div

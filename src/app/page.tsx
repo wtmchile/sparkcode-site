@@ -12,14 +12,14 @@ export default function Home() {
       <section id="hero">
         <div className="container mx-auto">
           <h1 className="hidden">Spark Code</h1>
-          <h2 className="mb-8 text-center text-fluid-6xl font-bold">Próximamente</h2>
+          {/* <h2 className="mb-8 text-center text-fluid-6xl font-bold">Próximamente</h2> */}
 
           <Image
             src={'/images/spark-only.png'}
             width={200}
             height={100}
             alt="Logo Spark Codes"
-            className="mx-auto"
+            className="mx-auto mb-8 mt-10"
           />
 
           <CountdownTimer />
