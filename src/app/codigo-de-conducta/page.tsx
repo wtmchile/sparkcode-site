@@ -2,8 +2,8 @@ import React from 'react';
 
 const CoCPage = () => {
   return (
-    <section className="container mx-auto mb-8">
-      <h1 className="text-center text-fluid-6xl font-bold">Código de Conducta</h1>
+    <section className="container mx-auto mb-8 max-w-6xl px-6">
+      <h1 className="mb-8 text-center text-fluid-6xl font-bold">Código de Conducta</h1>
       <h2 className="text-fluid-2xl font-semibold">Nuestros valores 💙</h2>
       <p className="mb-4 text-lg">
         Esta sección es para que conozcas más sobre nuestros valores como comunidad. La idea es que
