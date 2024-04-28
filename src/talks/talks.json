@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Miguel Ángel Durán (Midudev)",
+    "topic": "Presentación TechTon",
+    "image": "/images/speakers/midudev.webp",
+    "startHour": "2024-02-09T13:00:00",
+    "endHour": "2024-02-09T13:30:00",
+    "community": "Midudev",
+    "communityUrl": "https://midu.dev/"
+  },
+  {
+    "name": "Miguel Ángel Durán (Midudev)",
+    "topic": "QA + Just chatting",
+    "image": "/images/speakers/midudev.webp",
+    "startHour": "2024-02-09T13:30:00",
+    "endHour": "2024-02-09T14:00:00",
+    "community": "Midudev",
+    "communityUrl": "https://midu.dev/"
+  },
+  {
+    "name": "Heinz Wuth (Ciencia y Cocina)",
+    "topic": "Esto es.. ¡Ciencia y Cocina!",
+    "image": "/images/speakers/heinz-wuth.webp",
+    "startHour": "2024-02-09T14:00:00",
+    "endHour": "2024-02-09T14:30:00",
+    "community": "Ciencia y Cocina",
+    "communityUrl": "https://www.instagram.com/soycienciaycocina/"
+  },
+  {
+    "name": "Katia \"Katt\" Durán",
+    "topic": "\"He trabajado en proyectos toda la vida y no sabía\"",
+    "image": "/images/speakers/katt-duran.webp",
+    "startHour": "2024-02-09T14:30:00",
+    "endHour": "2024-02-09T15:00:00",
+    "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
+    "communityUrl": "https://www.instagram.com/wtmchile/"
+  },
+  {
+    "name": "Francisca Beatriz Medina Concha",
+    "topic": "Desatando la Creatividad con P5.js en el Arte Algorítmico",
+    "image": "/images/speakers/fran-medina.webp",
+    "startHour": "2024-02-09T15:00:00",
+    "endHour": "2024-02-09T15:30:00",
+    "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
+    "communityUrl": "https://womenwhocode.com/network/santiago"
+  },
+  {
+    "name": "Barbarita Lara",
+    "topic": "Hack yourself + taller comunicaciones de emergencia & estación base satelital",
+    "image": "/images/speakers/barbarita-lara.webp",
+    "startHour": "2024-02-09T15:30:00",
+    "endHour": "2024-02-09T16:00:00",
+    "community": "WTM Chile + Barbarita Lara",
+    "communityUrl": "https://www.instagram.com/wtmchile/"
+  }
+]

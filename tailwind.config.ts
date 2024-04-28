@@ -7,6 +7,7 @@ const config: Config = {
       fontFamily: {
         kufam: ['Kufam', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        barlow: ['Barlow', 'sans-serif'],
       },
       backgroundImage: {
         'star-pattern': "url('/images/estrellas-fondo.svg')",
@@ -63,6 +64,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-gradients'),
+  ],
 };
 export default config;
