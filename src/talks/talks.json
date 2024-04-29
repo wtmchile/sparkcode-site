@@ -1,0 +1,101 @@
+[
+  {
+    "name": "",
+    "topic": "",
+    "image": "",
+    "startHour": "2024-05-05T11:30:00",
+    "endHour": "2024-05-05T12:00:00",
+    "contact":"",
+    "type":"Bienvenida"
+  },
+  {
+    "name": "Pamela Clunes",
+    "topic": "Emprendiendo en Videojuegos",
+    "image": "/images/speakers/pamela-clunes.png",
+    "startHour": "2024-05-05T12:05:00",
+    "endHour": "2024-05-05T12:35:00",
+    "contact":"",
+    "type":"Speaker"
+  },
+  {    
+    "name": "Angel González",
+    "topic": "De los videojuegos al cine: Creando experiencias visuales con Unity y Unreal Engine 5",
+    "image": "/images/speakers/angel-gonzales.png",
+    "startHour": "2024-05-05T12:40:00",
+    "endHour": "2024-05-05T13:10:00",
+    "contact":"",
+    "type":"Speaker"
+  },
+  {
+    "name": "",
+    "topic": "",
+    "image": "",
+    "startHour": "2024-05-05T13:10:00",
+    "endHour": "2024-05-05T14:10:00",
+    "contact":"",
+    "type":"Lunch Break"
+  },
+  {
+    "name":  "Margarita Pino, Maureen Berho, Alexandra Marzuqa Giacaman",
+    "topic": "Mujeres en la industria de videojuegos",
+    "image": "/images/speakers/panel.png",
+    "startHour": "2024-05-05T14:15:00",
+    "endHour": "2024-05-05T15:15:00",
+    "contact":"",
+    "type":"Panel Conversación"
+  },
+  {
+    "name": "Armando caminos en la industria de videojuegos",
+    "topic": "Margarita Pino",
+    "image": "/images/speakers/margarita-pino.png",
+    "startHour": "2024-05-05T15:40:00",
+    "endHour": "2024-05-05T16:10:00",
+    "contact":"",
+    "type":"Speaker"
+  },
+  {
+    "name": "Del concept a Unreal: buscando y desarrollando tu identidad en tu escenario",
+    "topic": "Ariel Adasme",
+    "image": "/images/speakers/ariel-adasme.png",
+    "startHour": "2024-05-05T16:15:00",
+    "endHour": "2024-05-05T16:45:00",
+    "contact":"",
+    "type":"Speaker"
+  },
+  {
+    "name": "Videojuegos como carrera",
+    "topic": "Flammy Contreras",
+    "image": "/images/speakers/flammy-contreras.png",
+    "startHour": "2024-05-05T16:50:00",
+    "endHour": "2024-05-05T17:20:00",
+    "contact":"",
+    "type":"Speaker"
+  },
+  {
+    "name": "Teoría del afecto de Silvan Tomkins aplicada a videojuegos",
+    "topic": "Vale Dupoy",
+    "image": "/images/speakers/vale-dupoy.png",
+    "startHour": "2024-05-05T17:25:00",
+    "endHour": "2024-05-05T17:55:00",
+    "contact":"",
+    "type":"Speaker"
+  },
+  {
+    "name": "",
+    "topic": "",
+    "image": "",
+    "startHour": "2024-05-05T18:00:00",
+    "endHour": "2024-05-05T18:15:00",
+    "contact":"",
+    "type":"Despedida, inicio networking"
+  },
+  {
+    "name": "",
+    "topic": "",
+    "image": "",
+    "startHour": "2024-05-05T18:15:00",
+    "endHour": "2024-05-05T19:00:00",
+    "contact":"",
+    "type":"Espacio Networking + Dinámicas"
+  }
+]
