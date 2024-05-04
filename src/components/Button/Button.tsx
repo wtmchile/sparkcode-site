@@ -2,7 +2,7 @@ export const Button = () => {
   return (
     <div className="flex items-center justify-center">
       <div className="flex gap-6">
-        <a href="https://lu.ma/sparkcode-previa" target="_blank">
+        <a href="https://lu.ma/sparkcode-transmision" target="_blank">
           <button
             type="button"
             title="Registrarse para Online"
