@@ -23,10 +23,10 @@ export default function Home() {
           />
 
           <CountdownTimer />
-          <h2 className="my-8 text-center font-kufam text-lg font-bold text-white">
+          {/* <h2 className="my-8 text-center font-kufam text-lg font-bold text-white">
             Regístrate para los eventos:
-          </h2>
-          <Button />
+          </h2> */}
+          <Button/>
         </div>
       </section>
 
