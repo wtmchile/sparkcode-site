@@ -1,0 +1,25 @@
+.neon-purple {
+    color: #e6c3e3;
+    text-shadow:
+      0 0 5px #8c6c99,
+      0 0 10px #732d8f,
+      0 0 20px #fff,
+      0 0 40px #a58cfa,
+      0 0 80px #a58cfa,
+      0 0 90px #a58cfa,
+      0 0 100px #a58cfa,
+      0 0 150px #a58cfa;
+}
+
+.neon-white {
+    color: #fff;
+    text-shadow:
+      0 0 5px #8c6c99,
+      0 0 10px #732d8f,
+      0 0 20px #fff,
+      0 0 40px #a58cfa,
+      0 0 80px #a58cfa,
+      0 0 90px #a58cfa,
+      0 0 100px #a58cfa,
+      0 0 150px #a58cfa;
+}

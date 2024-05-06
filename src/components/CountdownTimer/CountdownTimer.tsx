@@ -1,10 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
 import { AnimatePresence, motion } from 'framer-motion';
 import Countdown from 'react-countdown';
 import { NumberBox } from '../NumberBox/NumberBox';
+
+import './CountdownTimer.css'
 
 export const CountdownTimer = () => {
   // To fix error: Text content does not match server-rendered HTML
@@ -70,8 +71,9 @@ export const CountdownTimer = () => {
     if (completed) {
       return (
         <div>
-          <h2 className="mb-5 text-center text-fluid-6xl font-semibold">Nos vemos en:</h2>
-          <Image src="/images/mgc.png" alt="" width={700} height={193} />
+          <h2 className="mb-2 text-center text-fluid-3xl font-semibold">¡Gracias por asistir!</h2>
+          <h2 className="mb-2 text-center text-fluid-5xl font-semibold neon-white">Queremos conocer</h2>
+          <h2 className="mb-5 text-center text-fluid-6xl font-semibold neon-purple">TU OPINION</h2>
         </div>
       );
     } else {
